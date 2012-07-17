@@ -12,6 +12,7 @@
     'description_ca_ES': '''Informe albarans valorats''',
     'description_es_ES': '''Informe albaranes valorados''',
     'depends': [
+        'company',
         'stock_valued',
         ],
     'xml': [
