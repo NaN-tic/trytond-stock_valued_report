@@ -1,0 +1,71 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.action,name:report_shipment_out_delivery_valued"
+msgid "Delivery Note Valued"
+msgstr "Albarán de envío"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "/"
+msgstr "/"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Customer Code:"
+msgstr "Código cliente:"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Date:"
+msgstr "Fecha:"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Delivery Note"
+msgstr "Albarán de envío"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "E-Mail:"
+msgstr "E-Mail:"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Phone:"
+msgstr "Teléfono"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Price"
+msgstr "Precio"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Reference:"
+msgstr "Referencia:"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Shipment Number:"
+msgstr "Número de envío:"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Taxes:"
+msgstr "Impuestos:"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Total (excl. taxes):"
+msgstr "Total (sin impuestos)"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "Total:"
+msgstr "Total:"
+
+msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgid "VAT Number:"
+msgstr "CIF/NIF:"
