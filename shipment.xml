@@ -9,6 +9,9 @@ this repository contains the full copyright notices and license terms. -->
             <field name="report_name">stock.shipment.out.delivery_valued</field>
             <field name="report">stock_valued_report/delivery_note_valued.odt</field>
             <field name="style">company/header_A4.odt</field>
+<!--
+            <field name="groups" eval="[('add', ref('stock_valued.group_stock_price'))]"/>
+-->
         </record>
         <record model="ir.action.keyword" id="report_shipment_out_delivery_valued_keyword">
             <field name="keyword">form_print</field>
