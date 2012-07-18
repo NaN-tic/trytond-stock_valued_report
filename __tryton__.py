@@ -26,7 +26,12 @@ A la configuración del informe Albarán de entrega, puede añadir los grupos:
 ''',
     'depends': [
         'company',
+        'stock',
         'stock_valued',
+        'res',
+        'ir',
+        'currency',
+        'product',
         ],
     'xml': [
         'shipment.xml',
