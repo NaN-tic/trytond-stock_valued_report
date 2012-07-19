@@ -26,8 +26,7 @@ setup(name='trytond_stock_valued_report',
     author=info.get('author', ''),
     author_email=info.get('email', ''),
     url=info.get('website', ''),
-    download_url="http://downloads.tryton.org/" + \
-            info.get('version', '0.0.1').rsplit('.', 1)[0] + '/',
+    download_url="https://bitbucket.org/zikzakmedia/trytond-stock_valued_report",
     package_dir={'trytond.modules.stock_valued_report': '.'},
     packages=[
         'trytond.modules.stock_valued_report',
