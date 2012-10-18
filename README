@@ -2,7 +2,6 @@ trytond_stock_valued_report
 ===========================
 
 Add delivery note report valued on shipment out of Tryton.
-See __tryton__.py
 
 Installing
 ----------

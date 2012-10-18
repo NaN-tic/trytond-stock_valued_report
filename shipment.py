@@ -6,18 +6,21 @@ from trytond.transaction import Transaction
 from trytond.pool import Pool
 from trytond.modules.company import CompanyReport
 
-class DeliveryValued(CompanyReport):
-    _name = 'stock.shipment.out.delivery_valued'
+__all__ = ['DeliveryValued']
 
-    def parse(self, report, objects, datas, localcontext):
+class DeliveryValued(CompanyReport):
+    'Stock Delivery Report Valued'
+    __name__ = 'stock.shipment.out.delivery_valued'
+
+    @classmethod
+    def parse(cls, report, objects, data, localcontext):
         localcontext['product_name'] = lambda product_id, language: \
-                self.product_name(product_id, language)
-        return super(DeliveryValued, self).parse(report, objects, datas,
+                cls.product_name(product_id, language)
+        return super(DeliveryValued, cls).parse(report, objects, data,
                 localcontext)
 
-    def product_name(self, product_id, language):
-        product_obj = Pool().get('product.product')
+    @classmethod
+    def product_name(cls, product_id, language):
+        Product = Pool().get('product.product')
         with Transaction().set_context(language=language):
-            return product_obj.browse(product_id).rec_name
-
-DeliveryValued()
+            return Product(product_id).rec_name
