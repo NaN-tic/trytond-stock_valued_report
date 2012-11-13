@@ -33,14 +33,14 @@ setup(name='trytonzz_stock_valued_report',
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',
-    download_url="https://bitbucket.org/zikzakmedia/trytonzz-stock_valued_report",
-    package_dir={'trytonzz.modules.stock_valued_report': '.'},
+    download_url="https://bitbucket.org/zikzakmedia/trytond-stock_valued_report",
+    package_dir={'trytond.modules.stock_valued_report': '.'},
     packages=[
-        'trytonzz.modules.stock_valued_report',
-        'trytonzz.modules.stock_valued_report.tests',
+        'trytond.modules.stock_valued_report',
+        'trytond.modules.stock_valued_report.tests',
     ],
     package_data={
-        'trytonzz.modules.stock_valued_report': info.get('xml', []) \
+        'trytond.modules.stock_valued_report': info.get('xml', []) \
             + ['tryton.cfg', 'locale/*.po', '*.odt'],
     },
     classifiers=[
@@ -65,9 +65,9 @@ setup(name='trytonzz_stock_valued_report',
     install_requires=requires,
     zip_safe=False,
     entry_points="""
-    [trytonzz.modules]
-    stock_valued_report = trytonzz.modules.stock_valued_report
+    [trytond.modules]
+    stock_valued_report = trytond.modules.stock_valued_report
     """,
     test_suite='tests',
-    test_loader='trytonzz.test_loader:Loader',
+    test_loader='trytond.test_loader:Loader',
 )
