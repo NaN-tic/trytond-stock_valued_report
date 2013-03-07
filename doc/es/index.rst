@@ -8,8 +8,8 @@ pertenecer a alguno de los siguientes grupos:
 * Stock
 * Precios stock
 
-Módulos que dependen
-====================
+Módulos de los que depende
+==========================
 
 Instalados
 ----------
