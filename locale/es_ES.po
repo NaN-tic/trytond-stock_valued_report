@@ -4,7 +4,7 @@ msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "model:ir.action,name:report_shipment_out_delivery_valued"
 msgid "Delivery Note Valued"
-msgstr "Albarán de envío"
+msgstr "Albarán valorado"
 
 msgctxt "odt:stock.shipment.out.delivery_valued:"
 msgid "/"
