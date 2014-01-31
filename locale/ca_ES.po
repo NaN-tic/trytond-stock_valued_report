@@ -2,70 +2,54 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "model:res.group,name:group_stock_price"
+msgid "Shipment Valued"
+msgstr "Albarans valorats"
+
 msgctxt "model:ir.action,name:report_shipment_out_delivery_valued"
 msgid "Delivery Note Valued"
 msgstr "Albarà valorat"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "/"
-msgstr "/"
-
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Customer Code:"
-msgstr "Codi de client:"
-
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Date:"
-msgstr "Data:"
-
-msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
 msgid "Delivery Note"
-msgstr "Albarà d'enviament"
+msgstr "Albarà client"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "E-Mail:"
-msgstr "Correu electrònic:"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Carrier"
+msgstr "Missatger"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Phone:"
-msgstr "Telèfon:"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Code"
+msgstr "Codi"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Price"
-msgstr "Preu"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Customer Code"
+msgstr "Codi client"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Product"
-msgstr "Productes"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Delivery Note"
+msgstr "Albarà"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
 msgid "Quantity"
 msgstr "Quantitat"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Reference:"
-msgstr "Referència:"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Source document"
+msgstr "Document relacionat"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Shipment Number:"
-msgstr "Número d'enviament:"
-
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Taxes:"
-msgstr "Impostos:"
-
-msgctxt "odt:stock.shipment.out.delivery_valued:"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
 msgid "Total"
 msgstr "Total"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Total (excl. taxes):"
-msgstr "Total (sense impostos):"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Tax"
+msgstr "Impostos"
 
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "Total:"
-msgstr "Total:"
-
-msgctxt "odt:stock.shipment.out.delivery_valued:"
-msgid "VAT Number:"
-msgstr "CIF/NIF:"
+msgctxt "jasper:stock.shipment.out.delivery_note_valued:"
+msgid "Untaxed"
+msgstr "Base"
