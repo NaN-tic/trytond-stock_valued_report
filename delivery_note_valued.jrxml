@@ -340,12 +340,12 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{code-code}]]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField pattern="###0.00;-###0.00">
 				<reportElement x="492" y="2" width="46" height="12" uuid="f5415720-12a2-42bf-b571-44256c5818e9"/>
 				<textElement textAlignment="Right"/>
 				<textFieldExpression><![CDATA[$F{move-total_amount} ? $F{move-total_amount} : '0']]></textFieldExpression>
 			</textField>
-			<textField>
+			<textField pattern="###0.00;-###0.00">
 				<reportElement x="453" y="2" width="39" height="12" uuid="5a9a4095-0dac-48e8-aa92-d04588285811"/>
 				<textFieldExpression><![CDATA[$F{move-untaxed_amount} ? $F{move-untaxed_amount} : '0']]></textFieldExpression>
 			</textField>
